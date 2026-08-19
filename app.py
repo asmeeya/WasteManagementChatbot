@@ -34,7 +34,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "db.sqlite")
 DATA_PATH = os.path.join(BASE_DIR, "data.json")
 
-app = Flask(__name__, template_folder="template")
+app = Flask(__name__, template_folder="templates")
 app.secret_key = "ecobot-waste-management-secret-key"  # change in production
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
