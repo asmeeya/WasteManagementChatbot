@@ -1,0 +1,77 @@
+{
+  "bot_name": "EcoBot",
+  "topic": "Waste Management Assistant",
+  "waste_categories": [
+    {
+      "category": "Plastic Waste",
+      "description": "Includes bottles, bags, wrappers, containers, and other packaging made from plastic polymers. Plastic waste is one of the most common and slow-decomposing forms of waste, taking hundreds of years to break down naturally.",
+      "type": "Non-Biodegradable / Recyclable (Dry Waste)",
+      "recycle_details": "Clean and dry plastics (PET bottles, HDPE containers) can be recycled into new bottles, fibers for clothing, or construction materials. Look for the recycling code (1-7) on the item to check if your local facility accepts it.",
+      "recommendation": "Rinse containers before disposal, remove caps/labels if required, and segregate by plastic type where possible.",
+      "suggestion": "Switch to reusable bags, steel/glass bottles, and avoid single-use plastic cutlery to reduce plastic waste generation at the source."
+    },
+    {
+      "category": "E-Waste (Electronic Waste)",
+      "description": "Discarded electronic devices such as mobile phones, batteries, computers, chargers, and household appliances that contain hazardous materials like lead, mercury, and cadmium.",
+      "type": "Hazardous / Recyclable",
+      "recycle_details": "E-waste must be handed over to authorized e-waste recyclers or collection centers, where valuable metals (gold, copper, silver) are extracted and hazardous parts are safely disposed of.",
+      "recommendation": "Never throw e-waste in regular household bins. Wipe personal data from devices before recycling and remove batteries separately.",
+      "suggestion": "Donate working electronics, repair instead of replacing when possible, and buy from brands offering take-back/recycling programs."
+    },
+    {
+      "category": "Organic / Biodegradable Waste",
+      "description": "Kitchen scraps, vegetable peels, food leftovers, garden waste, and other naturally decomposing matter.",
+      "type": "Biodegradable / Wet Waste",
+      "recycle_details": "Can be converted into nutrient-rich compost through composting or vermicomposting, or processed in biogas plants to generate energy.",
+      "recommendation": "Segregate wet waste separately from dry waste at the source; avoid mixing with plastics or chemicals.",
+      "suggestion": "Start a home compost bin, use kitchen waste for organic fertilizer, and plan meals to reduce food wastage."
+    },
+    {
+      "category": "Paper & Cardboard Waste",
+      "description": "Newspapers, cardboard boxes, office paper, notebooks, and packaging materials made of paper.",
+      "type": "Biodegradable / Recyclable (Dry Waste)",
+      "recycle_details": "Clean, dry paper and cardboard can be recycled into new paper products, packaging, or egg cartons. Avoid recycling paper that is heavily soiled with food or oil.",
+      "recommendation": "Flatten cardboard boxes to save space, keep paper dry, and separate glossy/laminated paper as it's harder to recycle.",
+      "suggestion": "Go digital where possible, reuse paper for notes/printing on both sides, and buy recycled paper products."
+    },
+    {
+      "category": "Glass Waste",
+      "description": "Bottles, jars, and broken glassware made from silica-based materials.",
+      "type": "Non-Biodegradable / Recyclable (Dry Waste)",
+      "recycle_details": "Glass is 100% recyclable and can be melted down repeatedly without losing quality, turned into new bottles, jars, or construction materials like glass wool.",
+      "recommendation": "Wrap broken glass safely before disposal to protect waste handlers, and separate by color (clear, green, brown) if required locally.",
+      "suggestion": "Reuse glass jars for storage, choose glass packaging over plastic when possible, and donate usable glassware."
+    },
+    {
+      "category": "Metal Waste",
+      "description": "Cans, foils, scrap metal, and metallic containers such as aluminum and steel items.",
+      "type": "Non-Biodegradable / Recyclable (Dry Waste)",
+      "recycle_details": "Metals can be melted and reformed into new products with minimal quality loss, saving significant energy compared to producing new metal from ore.",
+      "recommendation": "Rinse food residue from cans, flatten to save space, and keep separate from other dry waste for easier processing.",
+      "suggestion": "Buy products in aluminum/steel packaging where recycling infrastructure is strong, and recycle scrap metal through certified scrap dealers."
+    },
+    {
+      "category": "Hazardous Waste",
+      "description": "Includes paints, pesticides, chemicals, batteries, and cleaning agents that are toxic, corrosive, flammable, or reactive.",
+      "type": "Hazardous / Special Handling Required",
+      "recycle_details": "Must be disposed of through designated hazardous waste collection drives or facilities; should never be poured down drains or mixed with regular trash.",
+      "recommendation": "Store in original, labeled containers until disposal and keep away from children and pets.",
+      "suggestion": "Buy only the quantity needed, choose eco-friendly/non-toxic alternatives, and participate in community hazardous-waste collection days."
+    },
+    {
+      "category": "Medical / Biomedical Waste",
+      "description": "Used syringes, medicines, bandages, and other waste generated from healthcare activities at home or clinics.",
+      "type": "Hazardous / Special Handling Required",
+      "recycle_details": "Cannot be recycled through normal channels; must be handed over to pharmacies, hospitals, or designated biomedical waste collection services for safe incineration or treatment.",
+      "recommendation": "Never dispose of medicines or sharps in regular household trash; use puncture-proof containers for needles.",
+      "suggestion": "Return unused medicines to pharmacies through take-back programs and ask your local clinic about safe disposal options."
+    }
+  ],
+  "general_recommendations": [
+    "Follow the 3 R's: Reduce, Reuse, Recycle — in that order of priority.",
+    "Segregate waste at the source into wet (biodegradable), dry (recyclable), and hazardous categories.",
+    "Compost organic waste at home whenever possible to reduce landfill burden.",
+    "Support local recycling and e-waste collection drives in your community.",
+    "Avoid single-use plastics and choose durable, reusable alternatives."
+  ]
+}
